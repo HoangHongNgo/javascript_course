@@ -1,4 +1,4 @@
-class UserController {
+export class UserController {
   constructor(view, service) {
     this.view = view;
     this.service = service;
@@ -6,6 +6,7 @@ class UserController {
 
   init = () => {
     this.handleRenderTable();
+    this.view.openForm(this.handleGetUserById);
   };
 
   handleRenderTable = async () => {
@@ -16,6 +17,12 @@ class UserController {
       console.error("Error fetching data:", error);
     }
   };
-}
 
-export default UserController;
+  handleGetUserById = async (id) => {
+    try {
+      return await this.service.getUserById(id);
+    } catch (err) {
+      console.error("Error fetching user:", err);
+    }
+  };
+}

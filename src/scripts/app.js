@@ -1,6 +1,6 @@
-import UserController from "./mvc/controller";
-import UserService from "./mvc/services";
-import UserView from "./mvc/view";
+import { UserController } from "./mvc/controller";
+import { UserService } from "./mvc/services";
+import { UserView } from "./mvc/view";
 
 export class App {
   constructor() {}

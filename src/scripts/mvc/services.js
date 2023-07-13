@@ -1,6 +1,6 @@
 import { BASE_URL } from "../constants/url";
 
-class UserService {
+export class UserService {
   getListUsers = async () => {
     const response = await fetch(`${BASE_URL}users`);
     const users = await response.json();
@@ -12,5 +12,3 @@ class UserService {
     return user;
   };
 }
-
-export default UserService;
