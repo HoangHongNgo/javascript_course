@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "name": "Margie Davis",
+      "sex": "male",
+      "nation": "Albania",
+      "job": "Forward Metrics Coordinator",
+      "id": "1"
+    },
+    {
+      "name": "Belinda Littel",
+      "sex": "male",
+      "nation": "Lao People's Democratic Republic",
+      "job": "Internal Operations Designer",
+      "id": "2"
+    },
+    {
+      "name": "Mr. Drew Harber",
+      "sex": "male",
+      "nation": "Sweden",
+      "job": "Legacy Usability Executive",
+      "id": "3"
+    },
+    {
+      "name": "Bradley Christiansen",
+      "sex": "female",
+      "nation": "Isle of Man",
+      "job": "Direct Program Strategist",
+      "id": "4"
+    },
+    {
+      "name": "Mrs. Christie Osinski",
+      "sex": "male",
+      "nation": "Belize",
+      "job": "District Operations Agent",
+      "id": "5"
+    }
+  ]
+}

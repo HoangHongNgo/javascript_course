@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  text-align: center;
+}
+
+.modal {
+  margin-top: 50px;
+  width: 100%;
+  display: none;
+}
+
+.modal-active {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 400px;
+}
+
+form > button {
+  width: 200px;
+  margin: 20px auto 0px;
+}
